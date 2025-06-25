@@ -1,10 +1,10 @@
 # Web Search MCP Server
 
-A Model Context Protocol (MCP) server that enables free web searching using Google search results, with no API keys required.
+A Model Context Protocol (MCP) server that enables free web searching using DuckDuckGo search results, with no API keys required.
 
 ## Features
 
-- Search the web using Google search results
+- Search the web using DuckDuckGo search results
 - No API keys or authentication required
 - Returns structured results with titles, URLs, and descriptions
 - Configurable number of results per search
@@ -84,20 +84,9 @@ Example response:
 
 Since this tool uses web scraping of Google search results, there are some important limitations to be aware of:
 
-1. **Rate Limiting**: Google may temporarily block requests if too many searches are performed in a short time. To avoid this:
-   - Keep searches to a reasonable frequency
-   - Use the limit parameter judiciously
-   - Consider implementing delays between searches if needed
-
-2. **Result Accuracy**: 
-   - The tool relies on Google's HTML structure, which may change
-   - Some results might be missing descriptions or other metadata
-   - Complex search operators may not work as expected
-
 3. **Legal Considerations**:
    - This tool is intended for personal use
    - Respect Google's terms of service
-   - Consider implementing appropriate rate limiting for your use case
 
 ## Contributing
 
